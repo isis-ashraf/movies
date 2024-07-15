@@ -1,0 +1,32 @@
+.movies{
+    margin: 20px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+.card {
+    border: 1px solid #787474;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 10px;
+    flex: 0 1 calc(25% - 20px); /* Four items per row */
+    box-sizing: border-box;
+    max-width: 200px;
+    height: 300px; /* Keeping the height if necessary */
+  }
+  
+.card:hover {
+    transform: scale(1.05);
+    
+}
+  
+.card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
